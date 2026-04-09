@@ -19,21 +19,23 @@ Community projects based on this specification.
 
 ### Libraries
 
-1. **[eolib-dotnet](https://github.com/ethanmoffat/eolib-dotnet)** ([@ethanmoffat](https://github.com/ethanmoffat))
+1. **[eolib-c](https://github.com/sorokya/eolib-c)** ([@sorokya](https://github.com/sorokya))
+    * Core C library for writing Endless Online applications.
+2. **[eolib-dotnet](https://github.com/ethanmoffat/eolib-dotnet)** ([@ethanmoffat](https://github.com/ethanmoffat))
     * Core .NET library for writing Endless Online applications.
-2. **[eolib-go](https://github.com/ethanmoffat/eolib-go)** ([@ethanmoffat](https://github.com/ethanmoffat))
+3. **[eolib-go](https://github.com/ethanmoffat/eolib-go)** ([@ethanmoffat](https://github.com/ethanmoffat))
     * Core Golang library for writing Endless Online applications.
-3. **[eolib-java](https://github.com/cirras/eolib-java)** ([@cirras](https://github.com/cirras))
+4. **[eolib-java](https://github.com/cirras/eolib-java)** ([@cirras](https://github.com/cirras))
     * Core Java library for writing Endless Online applications.
-4. **[eolib-pas](https://github.com/cirras/eolib-pas)** ([@cirras](https://github.com/cirras))
+5. **[eolib-pas](https://github.com/cirras/eolib-pas)** ([@cirras](https://github.com/cirras))
     * Core Pascal library for writing Endless Online applications.
-5. **[eolib-php](https://github.com/exilestudios/eolib-php)** ([@exilestudios](https://github.com/exilestudios))
+6. **[eolib-php](https://github.com/exilestudios/eolib-php)** ([@exilestudios](https://github.com/exilestudios))
     * Core PHP library for writing Endless Online applications.
-6. **[eolib-python](https://github.com/cirras/eolib-python)** ([@cirras](https://github.com/cirras))
+7. **[eolib-python](https://github.com/cirras/eolib-python)** ([@cirras](https://github.com/cirras))
     * Core Python library for writing Endless Online applications.
-7. **[eolib-rs](https://github.com/sorokya/eolib-rs)** ([@sorokya](https://github.com/sorokya))
+8. **[eolib-rs](https://github.com/sorokya/eolib-rs)** ([@sorokya](https://github.com/sorokya))
     * Core Rust library for writing Endless Online applications.
-8. **[eolib-ts](https://github.com/cirras/eolib-ts)** ([@cirras](https://github.com/cirras))
+9. **[eolib-ts](https://github.com/cirras/eolib-ts)** ([@cirras](https://github.com/cirras))
     * Core Typescript library for writing Endless Online applications.
 
 ### Documentation
