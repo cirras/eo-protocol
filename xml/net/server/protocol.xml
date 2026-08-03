@@ -2205,7 +2205,7 @@
         <comment>Nearby player hit by a heal spell from a player</comment>
         <field name="victim_id" type="short"/>
         <field name="caster_id" type="short"/>
-        <field name="caster_direction" type="Direction"/>
+        <field name="target_type" type="SpellTargetType"/>
         <field name="spell_id" type="short"/>
         <field name="spell_heal_hp" type="int"/>
         <field name="hp_percentage" type="char"/>
