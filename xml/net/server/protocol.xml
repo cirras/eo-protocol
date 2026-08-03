@@ -207,7 +207,7 @@
     <enum name="LoginMessageCode" type="char">
         <comment>Whether a warning message should be displayed upon entering the game</comment>
         <value name="No">0</value>
-        <value name="Yes">2</value>
+        <value name="Yes">250</value>
     </enum>
 
     <enum name="AdminMessageType" type="char">
