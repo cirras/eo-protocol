@@ -1876,6 +1876,11 @@
         <field name="change" type="AvatarChange"/>
     </packet>
 
+    <packet family="Avatar" action="Player">
+        <comment>Sets the player's title</comment>
+        <field name="title" type="string"/>
+    </packet>
+
     <packet family="Book" action="Reply">
         <comment>Reply to requesting a book</comment>
         <chunked>
