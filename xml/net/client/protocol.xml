@@ -76,7 +76,7 @@
         <field name="challenge" type="three"/>
         <field name="version" type="Version"/>
         <!-- The official server verifies that this number is 112 -->
-        <field type="char">112</field>
+        <field name="protocol_version" type="char">112</field>
         <length name="hdid_length" type="char"/>
         <field name="hdid" type="string" length="hdid_length"/>
     </packet>
@@ -715,7 +715,7 @@
     <packet family="Guild" action="Accept">
         <comment>Accept pending guild creation invite</comment>
         <!-- The official client really does send this random harcoded 20202 value -->
-        <field type="int">20202</field>
+        <field name="session_id" type="int">20202</field>
         <field name="inviter_player_id" type="short"/>
     </packet>
 
@@ -855,14 +855,14 @@
     <packet family="Trade" action="Request">
         <comment>Requesting a trade with another player</comment>
         <!-- The official server verifies that this number is 138 -->
-        <field type="char">138</field>
+        <field name="request_type" type="char">138</field>
         <field name="player_id" type="short"/>
     </packet>
 
     <packet family="Trade" action="Accept">
         <comment>Accepting a trade request</comment>
         <!-- The official server verifies that this number is 0 -->
-        <field type="char">0</field>
+        <field name="request_type" type="char">0</field>
         <field name="player_id" type="short"/>
     </packet>
 
